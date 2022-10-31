@@ -3,11 +3,13 @@ variable "location" {}
 variable "admin_username" {
   type        = string
   description = "Administrator user name for virtual machine"
+  default = "admin"
 }
 
 variable "admin_password" {
   type        = string
   description = "Password must meet Azure complexity requirements"
+  default = "password123"
 }
 
 variable "prefix" {

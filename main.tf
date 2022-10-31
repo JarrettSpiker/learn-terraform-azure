@@ -12,6 +12,9 @@ terraform {
 
 provider "azurerm" {
   features {}
+
+  subscription_id = "404d3e58-3485-480c-ab2d-d8e3092a52a3"
+  use_msi = true
 }
 
 # Create a resource group
